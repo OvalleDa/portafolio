@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-in progress :'v
+# Getting Started with Create React App in progress :'v
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
