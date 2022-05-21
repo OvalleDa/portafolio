@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom  right, rgb(247, 152, 213) 0%, rgb(187, 159, 211) 25%, rgb(255, 187, 187) 50%,  rgb(142, 183, 241) 100%);
+  background-blend-mode: darken; 
+  background-size:200% 200%;
+  animation: fmovimiento 5s linear infinite alternate;
+  min-height: 100vh;
+
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.fondo2{
+  background-image: url(https://i.pinimg.com/564x/07/2e/d3/072ed316ba78950f3041ead1239f1256.jpg);
+  background-blend-mode: darken; 
+  background-size: contain;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 30px;
+}
+
+@keyframes fmovimiento{
+  from{
+      background-position: 0 0;
+  
+  }
+  to{
+  background-position: 100% 100%;
+  }
+}
+
+.title1{
+	text-align: center;
+    grid-column: 1/4;
+}
+
+.title1 h1 {
+	background-image: url(https://rebeccazhou-playground.glitch.me/img/gradient.gif);
+  font-family: 'Poppins', sans-serif;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 100px;
+}
+
+.App-logo {
+  height: 50vmin;
+  margin-top: auto;
+  margin-left: 100px;
+  pointer-events: none;
+  grid-column: 4/5;
+  border-radius: 300px;
+}
+
+
+
+.title2{
+    grid-column: 1/4;
+
+	text-rendering: optimizeLegibility;
+}
+
+.title2 h2{
+  font-family: 'Poppins', sans-serif;
+	color: #402271;
+	font-size: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.item{
+    color: #402271;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-bottom: transparent;
+
+}
+
+.item:hover{
+    color: rgb(43, 42, 42);
+    
+    border-bottom: 3px solid black;
+}
