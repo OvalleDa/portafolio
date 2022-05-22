@@ -1,5 +1,5 @@
 .fondoabout{
-    background:rgba(201, 172, 172, 0.363) url(../img/fondo.jpg);
+    background:rgba(201, 172, 172, 0.363) url(../img/fondito2.jpg);
     background-blend-mode: darken; 
     background-size:cover;
     min-height: 100vh;
@@ -7,7 +7,7 @@
 }
 
 .container-about{
-    margin-top: 40px;
+    margin-top: 1px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
@@ -16,24 +16,66 @@
 
 
 .hamster{
-    max-width: 200px;
+    height: 80vmin;
     border-radius: 100px;
-    grid-column: 1/2;
+    grid-column: 1/6;
     margin-left: 50px;
 }
 
 .infor{
-    grid-column: 2/5;
+    grid-column: 1/6;
     font-family: 'Poppins', sans-serif;
     border-radius: 30px;
-    background: rgba(5, 124, 204, 0.369);
+    background: rgba(78, 156, 207, 0.369);
     backdrop-filter: blur(10px);
     color: #fbf9ff;
-    margin-left: 50px;
+    margin: 10px;
     font-size: 20px;
     text-align: center;
 }
 
 .infor p{
     padding: 20px;
+}
+
+@media screen and (min-width: 768px){
+    .hamster{
+        height: 40vmin;
+        margin-top: 300px;
+        grid-column: 1/2;
+    }
+
+    .infor{
+        grid-column: 2/6;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .container-about{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+    .hamster{
+        height: 90vmin;
+        margin-top: 100px;
+        
+        grid-column: 1/2;
+    }
+
+    .infor{
+        grid-column: 2/6;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    .container-about{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
 }

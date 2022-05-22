@@ -4,7 +4,7 @@ import '../navbar/Navbar.css'
 function Navbar(){
     return(
         <nav>
-            <Link to="/" className='item'>
+            <Link to="/home" className='item'>
             <i className="fa-solid fa-house"></i> Home
             </Link>
 

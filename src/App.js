@@ -12,6 +12,7 @@ function App() {
         <div className="title1"><h1>Developer Web</h1></div>
         <img src={fotoperfil} className="App-logo" alt="logo" />
         <div className="title2"><h2>Daniela Ovalle</h2></div>
+
       </div>
       </header>
       <Footer></Footer>

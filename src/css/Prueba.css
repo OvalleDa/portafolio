@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.fondo-prueba{
+background: linear-gradient(to  right, rgb(219, 170, 252) 0%, rgb(245, 178, 234) 25%, rgb(170, 179, 255) 50%,  rgb(142, 183, 241) 100%);
+  background-blend-mode: darken; 
+  background-size:100% 100%;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+.container-prueba{
+    grid-column: 1/4;
+
+    margin-top: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.title-prueba{
+    grid-column: 1/4;
+    font-size: 80px;
+    font-weight: 700px;
+    margin-top: 100px;
+    letter-spacing: 20px;
+    background: linear-gradient(to bottom  right, rgb(170, 87, 141) 0%, rgb(176, 131, 212) 25%, rgb(247, 149, 149) 50%,  rgb(145, 191, 255) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: fmovimiento 1s linear infinite alternate;
+    background-size:200% 200%;
+    text-shadow: rgb(236, 202, 255) 0.1em 0.1em;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+.botton-start{
+
+    grid-column: 2/3;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.botton-start::before{
+    content: "";
+    background-image: conic-gradient(
+        #b477fa 20deg,
+        transparent 120deg
+    );
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    animation: rotate 3s linear infinite;
+
+}
+
+.botton-start::after{
+    content: "Start";
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to  right, rgb(212, 146, 255) 0%, rgb(186, 143, 255) 25%, rgb(187, 159, 253) 50%,  rgb(149, 142, 241) 100%);
+
+    font-size: larger;
+    width: 97px;
+    height: 50px;
+    font-size: larger;
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+@media screen and (min-width: 320px) and (min-width: 412px){
+    .container-prueba{
+        margin-top: 100px;
+    }
+
+    .title-prueba{
+        font-size: 80px;
+        margin-top: 180px;
+
+    }
+
+    .botton-start{
+        margin-bottom:200px;
+
+    }
+}
+
+
+       
+
+@media screen and (min-width: 768px){
+    .container-prueba{
+        margin-top: 50px;
+    }
+
+    .title-prueba{
+        font-size: 170px;
+        font-weight: 900px;
+        letter-spacing: 30px;
+    }
+
+    .botton-start{
+
+        grid-column: 2/4;
+        font-size:40px;
+        margin-left: 40px;
+        width: 200px;
+        height: 160px;
+    }
+
+.botton-start::before{
+    width: 300%;
+    height: 500%;
+
+}
+
+.botton-start::after{
+    width: 180px;
+    height: 140px;
+}
+    
+}
+
+
+@media screen and (min-width: 1024px){
+    .container-prueba{
+        margin-top: 0px;
+    }
+
+    .title-prueba{
+        font-size: 200px;
+        font-weight: 900px;
+        letter-spacing: 30px;
+    }
+
+    .botton-start{
+        font-size:40px;
+        font-weight: 800;
+        margin-left: 70px;
+        width: 300px;
+        height: 80px;
+        letter-spacing: 7px;
+
+}
+
+.botton-start::before{
+    animation: rotate 5s linear infinite;
+}
+
+.botton-start::after{
+    width: 280px;
+    height: 60px;
+}
+    
+}
+
+
