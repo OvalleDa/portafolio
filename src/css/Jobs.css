@@ -5,6 +5,12 @@
     grid-template-columns: repeat(3,1fr);
 
 }
+.item2{
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 'Poppins';
+}
 
 .section1{
     grid-column: 1/4;
@@ -136,6 +142,28 @@
 .property-card:hover .property-image
 {
   height:18em;
+}
+
+.fondo1{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo3.jpg);
+  background-blend-mode: darken; 
+  background-size:cover;
+  min-height: 100vh;
+
+}
+
+.fondo2{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo1.jpg);
+  background-blend-mode: darken; 
+  background-size:cover;
+  min-height: 100vh;
+}
+
+.fondo3{
+  background:rgba(201, 172, 172, 0.363) url(../img/fondo4.jpg);
+  background-blend-mode: darken; 
+  background-size:cover;
+  min-height: 100vh;
 }
 
 

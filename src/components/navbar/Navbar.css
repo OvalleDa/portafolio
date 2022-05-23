@@ -9,7 +9,7 @@ nav{
 }
 
 .item{
-    color: #402271;
+    color: white;
     font-weight: 900;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@ nav{
 }
 
 .item:hover{
-    color: rgb(43, 42, 42);
+    color: rgb(255, 255, 255);
     
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(247, 247, 247);
 }
