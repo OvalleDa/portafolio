@@ -3,11 +3,11 @@ import Navbar from "../components/navbar/Navbar";
 
 const Jobs2 = () => {
   return (
-    <div className="fondo2">
+    <div className="fondo0">
         <Navbar/>
         <header className="studies-header">
             <div className="container-studies">
-                <h1>Jobs2</h1>
+                <h1>Ghibli</h1>
             </div>
         </header>
     </div>

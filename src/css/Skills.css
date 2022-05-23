@@ -11,15 +11,7 @@
     grid-template-columns: repeat(5,1fr);
 }
 
-a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: #555566;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
+
 
 .card1{
     grid-column:1/6;
