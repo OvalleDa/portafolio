@@ -252,8 +252,97 @@ background-image:url(../img/animalandia.png);
   background: linear-gradient(rgba(1, 46, 1, 0.5),rgba(0, 0, 255, 0.315));
   background-size:200% 200%;
   backdrop-filter: blur(6px);
-
 }
+
+.title-courage{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(255, 46, 203),rgb(247, 157, 157), rgb(197, 5, 188));
+  background-size:200% 300%;
+  animation: fmovimiento 2s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-courage{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(226, 45, 45, 0.5),rgba(255, 28, 244, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-huellitas{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(1, 7, 80),rgb(26, 131, 163), rgb(110, 170, 238));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-huellitas{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 25, 136, 0.5),rgba(108, 255, 255, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-forja{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(241, 89, 0),rgb(75, 75, 75), rgb(211, 103, 3));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+
+.info-container-forja{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(224, 110, 4, 0.5),rgba(147, 151, 151, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
+.title-anima{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(185, 0, 241),rgb(194, 191, 191), rgb(100, 3, 211));
+  background-size:200% 300%;
+  animation: fmovimiento 3s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+.info-container-anima{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(136, 4, 224, 0.5),rgba(71, 179, 230, 0.493));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+}
+
 
 @media screen and (min-width: 390px){
 
@@ -426,6 +515,43 @@ background-image:url(../img/animalandia.png);
   font-size: 40px;
 
 }
+.title-courage{
+  font-size: 80px;
+}
+
+.info-container-courage{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-huellitas{
+  font-size: 80px;
+ 
+}
+
+.info-container-huellitas{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-forja{
+  font-size: 80px;
+}
+
+
+.info-container-forja{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.title-anima{
+  font-size: 80px;
+}
+
+.info-container-anima{
+  margin: 40px;
+  font-size: 40px;
+}
 
 }
 
@@ -510,6 +636,55 @@ background-image:url(../img/animalandia.png);
   .info-container-ghibli{
     grid-column: 2/5;
     padding: 30px;
+    font-size: 25px;
+  }
+
+  .title-courage{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  .info-container-courage{
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  
+  .title-huellitas{
+    grid-column: 1/6;
+    font-size: 70px;
+   
+  }
+  
+  .info-container-huellitas{
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .title-forja{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  
+  .info-container-forja{
+    margin: 40px;
+    grid-column: 2/5;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .title-anima{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  .info-container-anima{
+    margin: 40px;
+    grid-column: 2/5;
+    padding: 10px;
     font-size: 25px;
   }
 
