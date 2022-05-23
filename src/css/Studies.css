@@ -192,6 +192,7 @@ backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
           height: 29rem;
           width: 22rem;
+          margin-left: 40px;
         }
 }
 
