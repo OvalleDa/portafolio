@@ -231,6 +231,30 @@ background-image:url(../img/animalandia.png);
   font-size: 20px;
 }
 
+.title-ghibli{
+  grid-column: 1/4;
+  font-size: 40px;
+  color: transparent;
+  background: linear-gradient(to right,rgb(46, 255, 133),rgb(112, 157, 255),rgb(248, 255, 143));
+  background-size:200% 300%;
+  animation: fmovimiento 2s linear infinite alternate;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+
+
+.info-container-ghibli{
+  grid-column: 1/4;
+  color: white;
+  margin: 40px;
+  font-size: 20px;
+  background: linear-gradient(rgba(1, 46, 1, 0.5),rgba(0, 0, 255, 0.315));
+  background-size:200% 200%;
+  backdrop-filter: blur(6px);
+  border-radius: 50px;
+}
+
 @media screen and (min-width: 390px){
 
   .container-jobs2{
@@ -391,6 +415,18 @@ background-image:url(../img/animalandia.png);
   font-size: 25px;
 }
 
+.title-ghibli{
+  font-size: 80px;
+}
+
+
+.info-container-ghibli{
+
+  margin: 40px;
+  font-size: 40px;
+
+}
+
 }
 
 
@@ -465,6 +501,17 @@ background-image:url(../img/animalandia.png);
     font-size: 25px;
   }
 
+  .title-ghibli{
+    grid-column: 1/6;
+    font-size: 70px;
+  }
+  
+  
+  .info-container-ghibli{
+    grid-column: 2/5;
+    padding: 30px;
+    font-size: 25px;
+  }
 
 
 }
