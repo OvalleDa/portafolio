@@ -20,7 +20,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Jinx Arcane </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo.</p>
                   <Link to="/jobs/arcane" className='item2'>More info</Link>
                 </div>
               </div>
@@ -32,7 +32,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Studio Ghibli Movies </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo.</p>
                   <Link to="/jobs/ghibli" className='item2'>More info</Link>
                 </div>
               </div>
@@ -44,7 +44,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Coraje </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo.</p>
                   <Link to="/jobs/coraje" className='item2'>More info</Link>
                 </div>
               </div>
@@ -56,7 +56,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Mil Huellitas </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. </p>
                   <Link to="/jobs/huellitas" className='item2'>More info</Link>
                 </div>
               </div>
@@ -68,7 +68,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Forja </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo.</p>
                   <Link to="/jobs/forja" className='item2'>More info</Link>
                 </div>
               </div>
@@ -80,7 +80,7 @@ function Jobs(){
                   </div>
                 <div class="property-description">
                   <h5> Animalandia </h5>
-                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo.</p>
                   <Link to="/jobs/animalandia" className='item2'>More info</Link>
                 </div>
               </div>

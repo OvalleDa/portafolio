@@ -12,7 +12,7 @@
 .item2{
   color: white;
   text-decoration: none;
-  font-weight: 900;
+  margin-bottom: 10px;
   font-size: 'Poppins';
 }
 
@@ -141,7 +141,7 @@ background-image:url(../img/animalandia.png);
 
 .property-card:hover .property-description
 {
-  height:12em;
+  height:14em;
 
 }
 .property-card:hover .property-image
