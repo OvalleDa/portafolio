@@ -12,6 +12,7 @@
 
 .card {
 grid-column: 1/5;
+margin-left: 20px;
 background: rgba(41, 113, 161, 0.369);
 backdrop-filter: blur(10px);
   height: 23rem;
